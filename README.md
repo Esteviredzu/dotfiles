@@ -24,11 +24,21 @@ Welcome to my personal dotfiles repository!
 
 ---
 
+## 📸 Screenshots
+
+
+![изображение](https://github.com/user-attachments/assets/cb672c47-89aa-473e-bd48-9a816f924588)
+![изображение](https://github.com/user-attachments/assets/1e217072-ddc2-4abd-8355-fbf0f05f7bed)
+
+---
+
 ## 🚀 Installation
 
 **⚠️ Warning:** This will overwrite existing configs in `~/.config`.
 
 ```bash
+git clone https://github.com/Esteviredzu/dotfiles/
+cd dotfiles
 chmod +x install.sh
 ./install.sh
 ```
