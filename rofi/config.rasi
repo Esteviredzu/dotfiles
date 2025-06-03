@@ -1,0 +1,7 @@
+@theme "themes/spotlight-dark.rasi"
+
+
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+}

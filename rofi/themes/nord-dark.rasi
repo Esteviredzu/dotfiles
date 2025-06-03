@@ -1,0 +1,32 @@
+/*******************************************************************************
+ * PLAIN THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+
+
+@import "rounded-common.rasi"
+
+window {
+    border-radius: 0px; /* Убираем скругление окна */
+    border: 0px;
+    border-color: @fg2;
+}
+
+listview {
+    border-radius: 0px; /* Убираем скругление у списка */
+}
+
+element {
+    border-radius: 0px; /* Убираем скругления у элементов */
+}
+
+element selected {
+    text-color: @bg1;
+}
+
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+}

@@ -1,0 +1,94 @@
+/*******************************************************************************
+ * MACOS LAUNCHPAD LIKE THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    font: "Montserrat 12"; /* Увеличил базовый шрифт */
+
+    background-color: transparent;
+    text-color:       @fg0;
+    padding:          0px;
+    margin:           0px;
+}
+
+window {
+  fullscreen: true;
+  padding: 1em;
+  background-color: @bg0;
+}
+
+mainbox {
+  padding:  8px;
+}
+
+inputbar {
+  background-color: @bg2;
+
+  margin:   0px calc(50% - 250px); 
+  padding:  12px 16px;              
+  spacing:  8px;
+
+  border:         2px;
+  border-radius:  8px;
+  border-color:   @bg3;
+
+  children: [icon-search,entry];
+}
+
+entry {
+  placeholder:        "Search";
+  placeholder-color:  @fg1;
+  font: "Montserrat 18";
+}
+
+prompt {
+  enabled:  false;
+}
+
+icon-search {
+  expand:   false;
+  filename: "search";
+  vertical-align: 0.5;
+}
+
+entry {
+  placeholder:        "Search";
+  placeholder-color:  @fg2;
+}
+
+listview {
+  margin:   48px calc( 50% - 560px );
+  spacing:  48px;
+  columns:  6;
+  fixed-columns: true;
+}
+
+element, element-text, element-icon {
+  cursor: pointer;
+}
+
+element {
+  padding:      8px;
+  spacing:      4px;
+
+  orientation:    vertical;
+  border-radius:  16px;
+}
+
+element selected {
+  background-color: @fg2;
+  text-color: @bg0;
+  }
+  
+
+element-icon {
+  size: 4em;
+  horizontal-align: 0.5;
+}
+
+element-text {
+  horizontal-align: 0.5;
+  font: "Montserrat 12"; /* Увеличил размер шрифта для элементов */
+}
