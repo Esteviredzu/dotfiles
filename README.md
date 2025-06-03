@@ -9,15 +9,15 @@ Welcome to my personal dotfiles repository!
 
 | Directory     | Description                            |
 |---------------|----------------------------------------|
-| `alacritty/`  | Fast GPU terminal emulator config      |
+| `alacritty/`  | Fast GPU terminal emulator             |
 | `bin/`        | Custom scripts and utilities           |
-| `bspwm/`      | BSPWM window manager config            |
+| `bspwm/`      | BSPWM window manager                   |
 | `conky/`      | System monitoring with Conky           |
-| `dunst/`      | Lightweight notification daemon        |
+| `dunst/`      | Notification daemon                    |
 | `fish/`       | Fish shell configuration               |
 | `nitrogen/`   | Wallpaper setter config                |
-| `picom/`      | Compositor with transparency & blur    |
-| `polybar/`    | Custom status bar for BSPWM            |
+| `picom/`      | Compositor (ftlabs)                    |
+| `polybar/`    | Status bar                             |
 | `rofi/`       | Launcher and power menu                |
 | `sxhkd/`      | Hotkey daemon for BSPWM                |
 | `install.sh`  | Setup script (see below)               |
